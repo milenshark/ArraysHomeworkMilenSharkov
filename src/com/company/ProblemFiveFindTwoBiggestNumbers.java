@@ -9,9 +9,9 @@ public class ProblemFiveFindTwoBiggestNumbers {
 //        Problem 5. Find Two Biggest Numbers
 //        Write a program that finds the two biggest numbers from an array of integers
 
-        Scanner scan = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int[] numbers = Arrays
-                .stream(scan.nextLine().split(" "))
+                .stream(scanner.nextLine().split(" "))
                 .mapToInt(Integer::parseInt)
                 .toArray();
 
