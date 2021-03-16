@@ -44,6 +44,5 @@ public class ProblemOneCompareArrays {
             System.out.println("Equal");
         else
             System.out.println("Not Equal");
-
     }
 }
